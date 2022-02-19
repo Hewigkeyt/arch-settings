@@ -1,0 +1,4 @@
+AutoComplPop
+vim-commentary
+vim-fugitive
+vim-sensible
