@@ -2,3 +2,6 @@ AutoComplPop
 vim-commentary
 vim-fugitive
 vim-sensible
+syntastic
+nerdtree
+vim-surround
