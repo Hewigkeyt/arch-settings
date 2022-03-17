@@ -28,8 +28,10 @@ URxvt.lineSpace:            0
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:xos4 Terminus:style=Regular:size=12
-URxvt.boldFont: xft:xos4 Terminus:style=Regular:size=12
+URxvt.font:                 xft:xos4 Terminus:style=Regular:size=12,\
+xft:Kochi Gothic:antialias=false
+URxvt.boldFont: xft:xos4 Terminus:style=Regular:size=12,\
+xft:Kochi Gothic:antialias=false
 /* URxvt*font: xft:Monospace:pixelsize=12 */
 /* URxvt*boldFont: xft:Monospace:pixelsize=12 */
 
