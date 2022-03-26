@@ -1,0 +1,27 @@
+#panel {
+	background-color:rgba(0,0,0,0.5);
+}
+#panel .panel-corner {
+	-panel-corner-radius: 0px;
+	-panel-corner-border-width: 0px;
+}
+
+.run-dialog {
+	background: rgba(0,43,54,0.8);
+	border: none;
+	border-radius: 0px;
+}
+.run-dialog .modal-dialog-content-box {
+	margin-top: 24px;
+	margin-bottom: 14px; 
+}
+
+.run-dialog .run-dialog-entry {
+	width: 20em;
+	opacity:1;
+	background: none;
+	border-bottom:3px solid #ffffff;
+	border-color:#268BD2;
+	box-shadow:none;
+	border-radius:0px;
+}
