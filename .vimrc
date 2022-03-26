@@ -1,9 +1,12 @@
 syntax on
+set number
 map <C-_> gcc
+map <C-w> :wq<CR>
 noremap Y y$ 
 noremap nerd :NERDTreeToggle<CR>
 execute pathogen#infect()
 filetype plugin indent on
+set statusline+=r:%l,c:%c,
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
