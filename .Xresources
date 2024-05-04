@@ -3,10 +3,12 @@
 !-------------------------------------------------------------------------------
 
 Xft.dpi:                    96
-Xft.antialias:              false
+Xft.antialias:              true
 Xft.rgba:                   rgb
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
 
 !-------------------------------------------------------------------------------
 ! URxvt settings
@@ -17,7 +19,8 @@ Xft.hintstyle:              hintslight
 
 URxvt.depth:                32
 URxvt.geometry:             120x30
-URxvt.transparent:          false
+URxvt.transparent:          true
+URxvt.shading:          20
 URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
 ! URxvt.visualBell:           true
@@ -25,12 +28,13 @@ URxvt.loginShell:           true
 URxvt.saveLines:            150
 URxvt.internalBorder:       3
 URxvt.lineSpace:            0
+URxvt.borderless: true
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:xos4 Terminus:style=Regular:size=12,\
+URxvt.font:                 xft:Terminus:style=Regular:size=12,\
 xft:Kochi Gothic:antialias=false
-URxvt.boldFont: xft:xos4 Terminus:style=Regular:size=12,\
+URxvt.boldFont: xft:Terminus:style=Bold:size=12,\
 xft:Kochi Gothic:antialias=false
 /* URxvt*font: xft:Monospace:pixelsize=12 */
 /* URxvt*boldFont: xft:Monospace:pixelsize=12 */

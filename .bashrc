@@ -29,3 +29,7 @@ fi
 #dircolors
 d=~/MyScripts/arch-settings/solarized.dircolor
 test -r $d && eval "$(dircolors $d)"
+
+eval "$(thefuck --alias)"
+neofetch | lolcat -S 99
+echo 'On ne peut pas tromper 1000 fois 1000 personnes.' | lolcat -S 99
